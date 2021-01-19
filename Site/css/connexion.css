@@ -1,0 +1,82 @@
+* , * :after, * :before{
+    margin: 0;
+    padding: 0;
+    box-sizing:content-box;
+    }
+
+
+    .headerConnexion{
+        background: rgb(0, 0, 0);
+        color: white;
+        justify-content: center;
+        font-family: sans-serif;
+        align-items: center;
+        height: 100px;
+        display: flex;
+        flex-flow: row;
+    }
+
+    .formulaireConnexion{
+        margin-top: 100px;
+        border-style: solid;
+        border-color: tomato;
+        justify-content: center;
+        align-items: center;
+        width: 265px;
+        height: 300px;
+        font-family: sans-serif;
+    }
+
+    #center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+    }
+    
+    #nameConnexion{
+        margin-left: 30px;
+        width: 200px;
+    }
+
+    #motConnexion{
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+
+    #motPassword{
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+
+    #passwordConnexion{
+        margin-left: 30px;
+        width: 200px;
+    }
+
+    #motClick{
+        margin-left: 30px;
+        margin-top: 20px;
+        width: 200px;
+    }
+
+    #connexionButton{
+        margin-left: 30px;
+        margin-top: 20px;
+        width: 200px;
+        height: 30px;
+        
+    }
+
+    #lien{
+        margin-left: 30px;
+        margin-top: 20px;
+        width: 210px;
+    }
+
+    #lien2{
+        width: 210px;
+        margin-left: 30px;
+        margin-top: 20px;
+    }

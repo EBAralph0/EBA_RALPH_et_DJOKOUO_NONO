@@ -1,0 +1,158 @@
+* , * :after, * :before{
+    margin: 0;
+    padding: 0;
+    box-sizing:content-box;
+    }
+
+
+    .headerEnregistrement{
+        background: rgb(0, 0, 0);
+        color: white;
+        justify-content: center;
+        font-family: sans-serif;
+        align-items: center;
+        height: 100px;
+        display: flex;
+        flex-flow: row;
+    }
+
+    #center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+    }
+
+    .formulaireEnregistrement{
+        margin-top: 10px;
+        border-style: solid;
+        border-color: tomato;
+        justify-content: center;
+        align-items: center;
+        width: 265px;
+        height: 590px;
+        font-family: sans-serif;
+    }
+    
+    #nameEnregistrement{
+        margin-left: 30px;
+        width: 200px;
+    }
+
+    #motNOM{
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+
+    #motPrenom{
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+
+    #premomEnregistrement{
+        margin-left: 30px;
+        width: 200px;
+    }
+
+    #motPassword{
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+
+    #passwordEnregistrement{
+        margin-left: 30px;
+        width: 200px;
+    }
+
+    #motEmail{
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+
+    #emailEnregistrement{
+        margin-left: 30px;
+        width: 200px;
+    }
+
+    #motContact{
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+
+    #contactEnregistrement{
+        margin-left: 30px;
+        width: 200px;
+    }
+    #motJob{
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+
+    #jobEnregistrement{
+        margin-left: 30px;
+        width: 200px;
+    }
+    #motOrganisation{
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+
+    #organisationEnregistrement{
+        margin-left: 30px;
+        width: 200px;
+    }
+    #motBirthday{
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+
+    #birthdayEnregistrement{
+        margin-left: 30px;
+        width: 200px;
+    }
+
+    #motClick{
+        margin-left: 30px;
+        margin-top: 20px;
+        width: 200px;
+    }
+
+    #checkbox{
+        margin-left: 30px;
+    }
+
+    #enregistrementButton{
+        margin-left: 30px;
+        margin-top: 20px;
+        width: 200px;
+        height: 30px;
+        
+    }
+
+    #inscriptionButton{
+        margin-left: 30px;
+        margin-top: 20px;
+        width: 200px;
+        height: 30px;
+        
+    }
+
+    #lien{
+        margin-left: 30px;
+        margin-top: 20px;
+        width: 210px;
+    }
+
+    #lien2{
+        width: 210px;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+
+    #autreCompte{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+    }

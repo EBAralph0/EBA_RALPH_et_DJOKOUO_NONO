@@ -1,0 +1,21 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "premier test node",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm start",
+    "start": "nodemon app.js"
+  },
+  "author": "EDRAC",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.13",
+    "nodemon": "^1.18.10",
+    "restify": "^8.5.1"
+  }
+}

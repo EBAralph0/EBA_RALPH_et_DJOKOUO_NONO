@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>enregistrement</title>
+    <link rel = "stylesheet" href="../css/enregistrement.css"/>
+</head>
+<body>
+    <form action="" method="POST">
+    <div class="headerEnregistrement" id="headerEnregistrement" >Ma page d'enregistrement</div>
+    <div class="center" id="center">
+    <div class="formulaireEnregistrement">
+    <div class="motNom" id="motNOM">Nom</div>
+    <input class="textName" id="nameEnregistrement" name="name" placeholder="Nom" required>
+    <div class="motPrenom" id="motPrenom">Prenom</div>
+    <input class="textPrenom" id="premomEnregistrement" name="nickname" placeholder="Prenom" required>
+    <div class="motEmail" id="motEmail">E-mail</div>
+    <input type="email"class="textEmail" id="emailEnregistrement" name="email" placeholder="E-mail" required>
+    <div class="motPassword" id="motPassword">Mot de passe</div>
+    <input type="password" class="textPassword" id="passwordEnregistrement" name="password" placeholder="Mot de passe" required>
+    <div class="motBirthday" id="motBirthday">Date de naissance</div>
+    <input class="textBirthday" id="birthdayEnregistrement" name="birthday" placeholder="jj/MM/YYYY">
+    <div class="motJob" id="motJob">Job</div>
+    <input class="textJob" id="jobEnregistrement" name="job" placeholder="job">
+    <div class="motOrganisation" id="motOrganisation">Organisation</div>
+    <input class="textOrganisation" id="organisationEnregistrement" name="organisation" placeholder="Organisation">
+    <div class="motClick" id="motClick"></div>
+    <input type="checkbox" cols="1" id="checkbox" required > conditions lues et acceptées</input>
+    <button class="enregistrementButton" id="enregistrementButton" onclick=sendMail()> Enregistrer </button>
+    <div class="motClick2" id="motClick2"></div>
+    <div class="autreCompte" id="autreCompte">
+        <img src="../google_logo_48px.png" alt="">
+        <img src="../twitter_48px.png" alt="">
+        <img src="../linkedin_48px.png" alt="">
+        <img src="../facebook_48px.png" alt="">
+    </div>
+    <p id="lien" >Compte déja crée <a href="../home/connexion.html">Connexion</a></p>
+    </div>
+    </div>
+</form>
+<script src=" ../js/enregistrement.js"></script>
+</body>
+</html>
